@@ -12,7 +12,7 @@ The SBFB Stock Control repository hosts the source code and documentation for th
 
 ## Installation
 
-To set up the SBFB Stock Control system locally, follow these steps:
+To set up sbfb-stock-control locally, follow these steps:
 
 1. Clone the repository to your local machine:
   git clone https://github.com/yourusername/sbfb-stock-control.git
