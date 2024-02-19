@@ -1,6 +1,6 @@
 # sbfb-stock-control
 
-The SBFB Stock Control repository hosts the source code and documentation for the stock control system tailored for South Belfast Foodbank. This system effectively monitors and manages the flow of stock in and out of the foodbank's warehouse.
+The sbfb-stock-control repository hosts the source code and documentation for the stock control system tailored for South Belfast Foodbank. This system effectively monitors and manages the flow of stock in and out of the foodbank's warehouse.
 
 ## Features
 
