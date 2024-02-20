@@ -15,19 +15,19 @@ The sbfb-stock-control repository hosts the source code and documentation for th
 To set up sbfb-stock-control locally, follow these steps:
 
 1. Clone the repository to your local machine:  
-  git clone https://github.com/yourusername/sbfb-stock-control.git
+`git clone https://github.com/yourusername/sbfb-stock-control.git`
 
 2. Navigate to the project directory:  
-  cd sbfb-stock-control
+  `cd sbfb-stock-control`
 
 3. Install dependencies:  
-  npm install
+  `npm install`
 
 4. Configure environment variables:  
   Copy the `.env.example` file to `.env` and update the configuration settings as per your environment.
 
 5. Start the application in development mode:  
-  npm run dev
+  `npm run dev`
 
 ## License
 
