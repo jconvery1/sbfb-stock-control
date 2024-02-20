@@ -9,6 +9,7 @@ The sbfb-stock-control repository hosts the source code and documentation for th
 - **User Authentication and Authorization**: Secure access to the system with user authentication and authorization mechanisms ensuring only authorized personnel can perform specific actions.
 - **Reporting and Analytics**: Gain insights into stock levels, usage trends, and inventory turnover rates through generated reports and analytics.
 - **Notification System**: Receive notifications for low stock levels, expiring items, and other relevant events to facilitate proactive inventory management.
+- **Barcode Functionality**: Identify and monitor stock items using barcode technology that integrates with the sbfb-stock-control application.
 
 ## Installation
 
