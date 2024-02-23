@@ -6,31 +6,33 @@ The current warehouse processes for stock in and stock out operations are charac
 
 ## Current Warehouse Processes
 
-- **Stock In**:
+- **Stock In**
    - Upon arrival, food items are weighed using the warehouse scale. Details including weight, origin, signer, and date are recorded on a 'Stock In' sheet using pen and paper. Subsequently, the sheet is filed and stored appropriately within the 'Stock In' folder.
    - Following weighing, the stock is moved to the adjacent sorting room where it is palletized, awaiting processing by the sorting team.
-   - The sorting team organizes the received stock into respective crates based on food type.
+ 
+- **Sorting**
+   - The sorting team takes the stock placed on the pallets and organises it into sorted crates based on stock type (e.g. meat, veg etc.), the sorted crates are then placed in their respective location in the sorting room.
 
-- **Stock Out**:
+- **Stock Out**
    - The warehouse team receives an A4 replenishment sheet specifying the required quantities of each food type in crates for the food bank. As the team proceeds, they retrieve the stock from the warehouse, place it on the scales, record weight and quantity then subsequently load it into the van.
    - Upon completion of replenishment tasks, the warehouse team consolidates the sheet used to record the weight/quantity of stock placed in the van. Pertinent information including the date, total weight, total number of crates, the volunteer responsible for replenishment, and the respective reporting authority is noted on a final sheet that is filed appropriately into the 'Stock Out' folder.
 
 ## Challenges & Solutions
 
-- **Checking Stock In**:
+- **Checking Stock In**
   - *Challenge*: When stock arrives at the warehouse, the process of moving it to the scales, recording the weight and other details, then moving the stock from the scales to the sorting room is time-consuming and laborious.
   - *Solution*: Stock is taken straight to the sorting room, weighed on scales connected to a web application, and moved to the pallets, resulting in less laborious work for the volunteers, more accurate data collection, and less time taken than the current process.
 
-- **Paper Replen Sheets**:
+- **Paper Replen Sheets**
   - *Challenge*: Completing the replen using a paper sheet and marking down quantities supplied as we go makes the replen longer to complete. Volunteers can occasionally not remember how much of an item has been weighed and loaded into the van due to weighing multiple items at a time.
   - *Solution*: The paper replen sheet is replaced with a digital version viewed on a web application. Items are marked off the sheet as the team scans barcodes of required crates, resulting in accurate, less time-consuming data collection.
 
-- **Weighing Crates Whilst Doing the Replen**:
+- **Weighing Crates Whilst Doing the Replen**
   - *Challenge*: The process of retrieving crates from the warehouse, stacking these onto the scales, then moving them from the scales to the van is tiresome and very time-consuming.
   - *Solution*: By scanning crate barcodes and placing each crate straight into the van, the need to weigh crates on the scales is removed. This drastically speeds up the replen and is a lot less tiresome for the volunteers involved.
 
-- **Manual Consolidation of Data**:
-  - *Challenge*: At the end of the replen, the team has to tally up each of the weights recorded every time stock was moved from the scale to the van, done by a couple of volunteers using the calculator on their phones. This manual effort increases the likelihood of inaccuracies in reporting and adds to the total time taken to complete the replen.
+- **Manual Consolidation of Data**
+  - *Challenge*: At the end of the replen, the team has to tally up each of the weights recorded every time stock was moved from the scale to the van, completed by a couple of volunteers using the calculator on their phones. This manual effort increases the likelihood of inaccuracies in reporting and adds to the total time taken to complete the replen.
   - *Solution*: Since the web application records the quantity and total weight of crates supplied in the replen, there is no longer a need to tally these values up at the end of the replen, resulting in more accurate data collection and less time taken completing the replen.
 
 
