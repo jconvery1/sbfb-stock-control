@@ -41,6 +41,3 @@ For any questions, issues, or feedback, please [open an issue](https://github.co
 ## Acknowledgements
 
 I would like to express my gratitude to South Belfast Foodbank and all volunteers who have helped make this project possible.
-
----
-© 2024 South Belfast Foodbank. All rights reserved.
