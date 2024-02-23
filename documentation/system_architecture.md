@@ -18,6 +18,40 @@ The architecture of the system comprises four main layers:
   
 - **Data Layer**: Utilizing MySQL, this layer stores and manages the application's data, including stock information, user profiles, and stock movements.
 
+### Architecture Diagram
+
+<details>
+  <summary>Click to Expand Diagram</summary>
+
+```mermaid
+graph LR
+    subgraph Client
+        vjs[Vue.js]
+        inertia[Inertia.js]
+    end
+    subgraph Server
+        laravel[Laravel]
+        db[MySQL Database]
+    end
+    vjs -- Data --> inertia
+    inertia -- HTTP Requests --> laravel
+    laravel -- Database Queries --> db
+```
+</details>
+
+- **Client Side**:
+  - Vue.js: A progressive JavaScript framework for building user interfaces.
+  - Inertia.js: A library that allows you to create server-driven single page apps, leveraging backend frameworks like Laravel.
+
+- **Server Side**:
+  - Laravel: A PHP web application framework for building web applications following the MVC architectural pattern.
+  - MySQL Database: A relational database management system used for storing application data.
+
+The flow of data is as follows:
+- User interactions and data requests are handled by Vue.js and Inertia.js on the client-side.
+- Inertia.js sends HTTP requests to the Laravel backend.
+- Laravel processes these requests, executes business logic, and interacts with the MySQL database to fetch or update data.
+
 ## Detailed Components
 
 ### Presentation Layer (Vue.js + Inertia.js):
