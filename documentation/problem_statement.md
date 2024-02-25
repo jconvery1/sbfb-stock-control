@@ -22,10 +22,15 @@ The current warehouse processes for stock in and stock out operations are charac
 - **Checking Stock In**
   - *Challenge*: When stock arrives at the warehouse, the process of moving it to the scales, recording the weight and other details, then moving the stock from the scales to the sorting room is time-consuming and laborious.
   - *Solution*: Stock is taken straight to the sorting room, weighed on scales connected to a web application, and moved to the pallets, resulting in less laborious work for the volunteers, more accurate data collection, and less time taken than the current process.
-
 - **Paper Replen Sheets**
   - *Challenge*: Completing the replen using a paper sheet and marking down quantities supplied as we go makes the replen longer to complete. Volunteers can occasionally not remember how much of an item has been weighed and loaded into the van due to weighing multiple items at a time.
   - *Solution*: The paper replen sheet is replaced with a digital version viewed on a web application. Items are marked off the sheet as the team scans barcodes of required crates, resulting in accurate, less time-consuming data collection.
+ 
+- **Fetching Crates In The Warehouse**
+  - *Challenge*: Crates in the warehouse usually have multiple labels that display different information, this makes locating correct crates whilst doing the replen difficult and time consuming.
+  - *Solution*: The new system would involve the sorting team ensuring that only one label is on a sorted crate, this label would be printed using the appliction and have correct information regarding the stock type and 'use by' date as well as have a unique barcode.
+  - *Challenge*: There is often items requested on the replen sheet that are out of stock, the team isn't aware of this initially and will spend time searching through the warehouse looking for the out of stock item.
+  - *Solution*: The application will tell/prevent the user from requesting items that are out of stock in the warehouse, this will save time as the replen team no longer have to search the warehouse for items that aren't there.
 
 - **Weighing Crates Whilst Doing the Replen**
   - *Challenge*: The process of retrieving crates from the warehouse, stacking these onto the scales, then moving them from the scales to the van is tiresome and very time-consuming.
