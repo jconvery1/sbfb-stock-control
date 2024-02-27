@@ -5,7 +5,7 @@
 The current warehouse processes for stock in and stock out operations are characterized by manual, paper-based methods that are slow, error-prone, and inefficient. These processes significantly impact operational efficiency and hinder timely delivery of food items to 119 University Street.
 
 The proposed solution is a web application that will track and monitor the movement of stock in and out of the warehouse, it will replace the use of pen and paper and in doing so reduce many of the inefficiencies and errors that are found using the current system.
-## Current Warehouse Processes
+## Current System
 
 - **Stock In**
    - Upon arrival, food items are weighed using the warehouse scale. Details including weight, origin, signer, and date are recorded on a 'Stock In' sheet using pen and paper. Subsequently, the sheet is filed and stored appropriately within the 'Stock In' folder.
@@ -17,6 +17,18 @@ The proposed solution is a web application that will track and monitor the movem
 - **Stock Out**
    - The warehouse team receives an A4 replenishment sheet specifying the required quantities of each food type in crates for the food bank. As the team proceeds, they retrieve the stock from the warehouse, place it on the scales, record weight and quantity then subsequently load it into the van.
    - Upon completion of replenishment tasks, the warehouse team consolidates the sheet used to record the weight/quantity of stock placed in the van. Pertinent information including the date, total weight, total number of crates, the volunteer responsible for replenishment, and the respective reporting authority is noted on a final sheet that is filed appropriately into the 'Stock Out' folder.
+
+## Proposed System
+
+- **Stock In**
+   - Upon arrival, food items are directed to the sorting room for immediate weighing using integrated scales connected to the web application. Details such as weight, origin, and signatory information are recorded in the application before transferring the food to nearby pallets.
+
+- **Sorting**
+   - The sorting team organizes stock into crates based on type (e.g., meat, vegetables). Each crate is weighed upon sorting, with details like stock type, weight, crate type, and 'use by' date logged in the system. A unique barcode label is generated via the application for crate identification.
+
+- **Stock Out**
+   - During replenishment, the team accesses the replenishment sheet via the web application. Volunteers scan crate labels with a barcode scanner and load them directly into the van, streamlining the replenishment process.
+
 
 ## Challenges & Solutions
 
