@@ -4,6 +4,7 @@
 
 The current warehouse processes for stock in and stock out operations are characterized by manual, paper-based methods that are slow, error-prone, and inefficient. These processes significantly impact operational efficiency and hinder timely delivery of food items to 119 University Street.
 
+The proposed solution is a web application that will track and monitor the movement of stock in and out of the warehouse, it will replace the use of pen and paper and in doing so reduce many of the inefficiencies and errors that are found using the current system.
 ## Current Warehouse Processes
 
 - **Stock In**
