@@ -41,6 +41,7 @@ This schema may change as the project develops, for now this is just a first dra
 | id                | INT       | PRIMARY KEY |
 | stock_item_id     | INT       | FOREIGN KEY |
 | crate_type_id     | INT       | FOREIGN KEY |
+| use_by            | VARCHAR   |             |
 | weight            | DECIMAL   | NOT NULL    |
 
 #### crate_type
