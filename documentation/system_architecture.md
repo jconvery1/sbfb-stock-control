@@ -100,7 +100,7 @@ The flow of data is as follows:
 ## Deployment Strategy
 
 - Continuous Integration/Continuous Deployment (CI/CD): Implements CI/CD pipelines for automated testing, building, and deployment.
-- Version Control: Utilizes Git for version control and collaboration among development teams.
+- Version Control: Utilizes Git for version control and collaboration.
 
 ## Conclusion
 
