@@ -10,7 +10,7 @@ The system facilitates efficient management of stock in the foodbank warehouse. 
 
 ## High-Level Architecture
 
-The architecture of the system comprises four main layers:
+The architecture of the system comprises three main layers:
 
 - **Presentation Layer**: Implemented using Vue.js and Inertia.js, this layer handles the user interface components and provides an intuitive and responsive frontend experience.
   
